@@ -87,9 +87,9 @@ var haikuName = haikuLines[0].split(" - ")[0];
 haikuLines[0] = haikuLines[0].split(" - ")[1];
 
 
-container.setHTML( `
+container.innerHTML =  `
     <h1>${haikuName}</h1>
     ${haikuLines[0]}<br>
     ${haikuLines[1]}<br>
     ${haikuLines[2]}<br>
-`)
+`
